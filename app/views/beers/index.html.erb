@@ -1,0 +1,8 @@
+<h1>List all beers, fuckhead</h1>
+
+<% @beers.each do |beer| %>
+<%= link_to beer.name, beer, method: :get %><br>
+<% end  %>
+
+<h3>Add a fucking dope ass, down-for-whatever, beer you pansy ass bitch</h3>
+<%= button_to "Add a beer jerkoff", new_beer_path, method: :get %>
