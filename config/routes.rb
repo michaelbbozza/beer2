@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   delete "/beers/:id" => "beers#destroy", as: 'delete_fucker'
   delete "/users/:id" => "users#destroy", as: "delete_fucking_user"
 
+  # testing
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
